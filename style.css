@@ -51,7 +51,7 @@ Version: 1.0
     padding-bottom: 50px;
     z-index: 2;
     position: absolute;
-    left: 31%;
+    left: 25%;
 }
 .slide_content_h .helloworld.bg_diff:before {
     content: "1";
@@ -142,6 +142,7 @@ Version: 1.0
 }
 .wannasee {
     display: flex;
+	margin-top: 30px;
 }
 .wannasee_more{
     z-index: 19;
@@ -308,7 +309,7 @@ Version: 1.0
 .slider-overlay {
 	background: #292c36;
     padding-top: 120px;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
 }
 }
 .slider-content {
@@ -1707,4 +1708,28 @@ Version: 1.0
   50% {
     border-color: transparent
   }
+}
+
+
+.slide_content .slide_content_hobby.bg_diff span {
+    color: #2b2f3b !important;
+}
+.slide_content .slide_content_title span{
+	color: #292c36 !important;
+}
+.slide_content .slide_content_comming span{
+	color: #292c36 !important;
+}
+.title_footer {
+    margin-bottom: 20px;
+}
+.title_footer h5{
+	font-size: 20px;
+    line-height: 34px;
+    font-weight: 600;
+    letter-spacing: 0px;}
+
+
+hr{
+	border-top: 1px solid #fff0;
 }
