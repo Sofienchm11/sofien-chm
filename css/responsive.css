@@ -248,10 +248,10 @@
 }
 @media only screen and (max-width:767px) {
 	.slide_content_h{
-		left: 10%;
+		left: 8%;
 	}
 	.typing-demo{
-		width: 14ch;
+		width: 18ch;
 	}
 	.typing-demo1{
 		width: 40ch;
@@ -263,24 +263,40 @@
 		width: 35ch;
 	}
 	.helloworld{
-		font-size: 22px;
+		font-size: 18px;
 	}
 	.typing-demo1 span {
-		font-size: 22px !important;
+		font-size: 18px !important;
 	}
 	.typing-demo2 span {
-		font-size: 22px !important;
+		font-size: 18px !important;
 	}
 	.typing-demo3 span {
-		font-size: 22px !important;
+		font-size: 18px !important;
 	}
 	.wannasee_more{
-		font-size: 14px;
-		padding: 30px 20px 30px 25px;
+		font-size: 13px;
+		padding: 15px 10px 15px 10px;
 	}
 	.wannasee_cv{
-		font-size: 14px;
-		padding: 30px 20px 30px 25px;
+		font-size: 13px;
+		padding: 15px 10px 15px 10px;
+	}
+	.slide_content_h .helloworld.bg_diff:before,
+	.slide_content_h .slide_content_title:before,
+	.slide_content_h .slide_content_hobby.bg_diff:before,
+	.slide_content_h .slide_content_comming:before{
+		font-size: 26px;
+		margin-right: 20px;
+	}
+	footer.footer .col-md-4 {
+		margin-bottom: 30px;
+	}
+	.title_footer {
+		margin-bottom: 10px;
+	}
+	.process-bottom{
+		padding: 75px 15px;
 	}
 
 
@@ -457,8 +473,23 @@
 	.process-bottom ol li span {
 		margin-left: 0px;
 	}
+	.typing-demo1 {
+		width: 33ch;
+	}
+	.slide_content_h {
+		left: 0;
+		padding-left: 15px;
+	}
+	.typing-demo1, .typing-demo2, .typing-demo3{
+		width: 96vw;
+	}
+	.typing-demo{
+		width: 16ch !important;
+	}
+
 }
 @media only screen and (max-width:360px) {
+	
 	.count span {
 		font-size: 40px;
 	}
